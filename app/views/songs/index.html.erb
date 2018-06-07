@@ -1,18 +1,16 @@
 <table>
   <thead>
     <tr>
-       <th>Month</th>
-       <th>Savings</th>
+       <th>Songs</th>
     </tr>
   </thead>
   <% @songs.each do |song| %>
 
-  <tr>
-    <th> SONGS</th>
-  </tr>
-  <tr>
-    <td><%= song.title %></td>
-  </tr>
+    <tbody>
+      <tr>
+         <td><%= song.title %></td>
+      </tr>
+    </tbody>
 
   <% end %>
 </table>
